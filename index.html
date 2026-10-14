@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rupasree Dey — PhD researcher in Computer Science at Colorado State University, working on trustworthy foundation models for scientific AI.">
+  <title>Rupasree Dey | Academic Homepage</title>
+
+  <style>
+    :root {
+      --text: #253044;
+      --muted: #617084;
+      --accent: #1c587e;
+      --line: #e2e8ef;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: #fff;
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .container {
+      max-width: 920px;
+      margin: auto;
+      padding: 0 25px;
+    }
+
+    nav {
+      padding: 22px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    nav .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .brand {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .nav-links a {
+      margin-left: 18px;
+      font-size: 14px;
+    }
+
+    .hero {
+      display: flex;
+      gap: 45px;
+      align-items: center;
+      padding: 65px 0 40px;
+    }
+
+    .hero-text { flex: 1; }
+
+    .profile-photo {
+      width: 195px;
+      height: 195px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 38px;
+      margin: 0 0 8px;
+      letter-spacing: -1px;
+    }
+
+    h2 {
+      font-size: 23px;
+      margin: 0 0 18px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .subtitle {
+      color: var(--muted);
+      margin-bottom: 18px;
+    }
+
+    .social-links a {
+      margin-right: 15px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    section { padding: 27px 0; }
+
+    p { margin: 10px 0; }
+
+    .research-item,
+    .publication {
+      margin-bottom: 20px;
+    }
+
+    .publication-title {
+      font-weight: 600;
+    }
+
+    .venue {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      margin-top: 35px;
+      padding: 25px 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 650px) {
+      .hero {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 20px;
+        padding-top: 40px;
+      }
+
+      h1 { font-size: 32px; }
+
+      .nav-links a {
+        margin: 0 14px 0 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="container">
+      <a class="brand" href="#">Rupasree Dey</a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Rupasree Dey</h1>
+
+        <p class="subtitle">
+          PhD Student in Computer Science<br>
+          Colorado State University<br>
+          NSF AI-LEAF Institute
+        </p>
+
+        <p>
+          I develop trustworthy and efficient
+          foundation models for scientific and
+          environmental applications.
+        </p>
+
+        <div class="social-links">
+          <a href="https://scholar.google.com/citations?user=qk37DZUAAAAJ">
+            Google Scholar
+          </a>
+          <a href="https://github.com/RupasreeDey">
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/rupasree-dey/">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <img
+        class="profile-photo"
+        src="https://github.com/RupasreeDey.png?size=400"
+        alt="Rupasree Dey profile photograph"
+      >
+    </div>
+
+    <section id="about">
+      <h2>About Me</h2>
+
+      <p>
+        I am a PhD student in the Department of Computer
+        Science at Colorado State University, advised by
+        Dr. Sangmi Lee Pallickara and
+        Dr. Shrideep Pallickara.
+      </p>
+
+      <p>
+        My research lies at the intersection of
+        foundation models, trustworthy machine learning,
+        and AI for Science. I am particularly interested
+        in developing learning systems that remain
+        reliable under distribution shifts, capture
+        meaningful scientific structure, and operate
+        efficiently on large-scale environmental data.
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research Interests</h2>
+
+      <div class="research-item">
+        <strong>Trustworthy Foundation Models</strong>
+        <p>
+          Uncertainty quantification, reliability
+          assessment, and robust prediction.
+        </p>
+      </div>
+
+      <div class="research-item">
+        <strong>AI for Science and Environmental Modeling</strong>
+        <p>
+          Spatiotemporal learning, scientific forecasting,
+          remote sensing, and physics-guided AI.
+        </p>
+      </div>
+
+      <div class="research-item">
+        <strong>Efficient Representation Learning</strong>
+        <p>
+          Knowledge distillation, domain adaptation,
+          self-supervised learning, and token reduction.
+        </p>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Selected Publications</h2>
+
+      <div class="publication">
+        <div class="publication-title">
+          When to Trust, How to Distill:
+          Multi-Foundation Model Guidance for Lightweight,
+          Robust Scientific Time Series Forecasting
+        </div>
+        <div class="venue">
+          KDD AI4Sciences Workshop, Poster, 2026
+        </div>
+      </div>
+
+      <div class="publication">
+        <div class="publication-title">
+          XFORMER: A Multi-Stage Uncertainty-Guided
+          Deep Learning Framework for Time Series
+          Extreme Event Forecasting
+        </div>
+        <div class="venue">IEEE CAI, 2026</div>
+      </div>
+
+      <div class="publication">
+        <div class="publication-title">
+          DEEPSALT: Bridging Laboratory and Satellite
+          Spectra through Domain Adaptation and
+          Knowledge Distillation
+        </div>
+        <div class="venue">IEEE Big Data, 2025</div>
+        <a href="https://doi.org/10.1109/BigData66926.2025.11401634">
+          Paper
+        </a>
+      </div>
+
+      <div class="publication">
+        <div class="publication-title">
+          Knowledge-Guided Masked Autoencoder with
+          Linear Spectral Mixing and Spectral-Angle-Aware
+          Reconstruction
+        </div>
+        <div class="venue">AAAI Workshop, 2026</div>
+      </div>
+
+      <div class="publication">
+        <div class="publication-title">
+          Data-Driven Structural Fire Risk Prediction
+        </div>
+        <div class="venue">AAAI IAAI Track, 2024</div>
+      </div>
+
+      <p>
+        For a complete publication list, visit my
+        <a href="https://scholar.google.com/citations?user=qk37DZUAAAAJ">
+          Google Scholar profile
+        </a>.
+      </p>
+    </section>
+
+    <section id="experience">
+      <h2>Research Experience</h2>
+
+      <p>
+        <strong>Colorado State University</strong><br>
+        PhD Researcher, NSF AI-LEAF Institute<br>
+        2024–Present
+      </p>
+
+      <p>
+        <strong>Los Alamos National Laboratory</strong><br>
+        Graduate Research Intern, Summer 2026
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <p>
+        Department of Computer Science<br>
+        Colorado State University<br>
+        Fort Collins, Colorado, USA
+      </p>
+
+      <p>
+        Email:
+        <a href="mailto:rupasree.dey@colostate.edu">
+          rupasree.dey@colostate.edu
+        </a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Rupasree Dey · Academic Homepage
+    </div>
+  </footer>
+</body>
+</html>
